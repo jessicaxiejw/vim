@@ -1,6 +1,8 @@
 " Some Linux distributions set filetype in /etc/vimrc.
 " Clear filetype flags before changing runtimepath to force Vim to reload
 " them.
+"
+" pathogen packages: vim-airline
 execute pathogen#infect()
 filetype plugin indent on
 syntax on
